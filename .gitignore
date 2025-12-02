@@ -1,0 +1,29 @@
+# Create the .gitignore file with strict exclusions
+$gitignoreContent = @"
+# --- Security (CRITICAL) ---
+keys/
+*.key
+*.pem
+.env
+
+# --- Rust ---
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Exceptions (Keep these specific files) ---
+!logs/2015_laptop_benchmark.txt
+"@
+
+Set-Content -Path .gitignore -Value $gitignoreContent
