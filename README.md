@@ -155,6 +155,22 @@ Use this system only for experimentation and learning.
 
 ---
 
+## Known Issues
+
+The current implementation is functional but has several limitations that are planned for future refinement:
+
+1. **Extraction pool updates may lag behind key minting**  
+   Rapid PQC key generation can outpace the GUI refresh rate, causing the displayed pool fill and extraction statistics to update slightly after the fact.
+
+2. **Performance variability on lower-end hardware**  
+   Systems with limited CPU or integrated graphics may experience occasional stuttering in the GUI, especially when multiple harvesters (video, audio, HID) are active simultaneously.
+
+3. **Limited device multiplicity**  
+   ChaosMagnet currently supports only one instance of each harvester type. Adding support for multiple cameras, USB audio devices, or other external sensors is a planned upgrade.
+
+
+---
+
 ## License
 
 This project is licensed under the Apache License 2.0.
