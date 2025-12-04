@@ -1,4 +1,4 @@
-# ChaosMagnet (Rust Core)
+# ChaosMagnet (Rust Core, Python GUI)
 
 ChaosMagnet is an entropy harvesting and post‑quantum key minting engine built around a Rust core with a Python GUI. It combines multiple noisy subsystems (host RNG, system stats, audio, video, HID) and optional hardware TRNGs into a conservatively measured entropy pool, then uses that pool to mint Kyber/Falcon key bundles with signed audit trails.
 
