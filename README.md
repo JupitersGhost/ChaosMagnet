@@ -83,8 +83,8 @@ Cargo.toml         — Rust crate configuration
 src/lib.rs         — Rust ChaosEngine (harvesters, metrics, extractor, PQC, P2P)
 config.py          — Runtime and GUI configuration
 main.py            — Python GUI (DearPyGUI) interfacing with Rust core
-keys/              — Generated PQC bundles (not tracked by Git)
-logs/              — Runtime logs and metrics (not tracked by Git)
+keys/              — Generated PQC bundles (created on startup)
+logs/              — Runtime logs and metrics (created on startup)
 ```
 
 ---
