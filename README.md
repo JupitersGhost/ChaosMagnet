@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="chaosmagnet.png" alt="ChaosMagnet Logo" width="240">
+</p>
+
+
 # ChaosMagnet (Rust Core + Python GUI)
 
 ChaosMagnet is a proof of concept entropy harvesting engine and post-quantum key generator. It combines multiple system-level noise sources, evaluates them with basic NIST-style tests, compresses them through a cryptographic extraction process, and exposes the distilled pool for metrics, experimentation, and PQC key minting.
