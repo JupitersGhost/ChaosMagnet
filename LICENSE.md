@@ -65,6 +65,6 @@ END OF TERMS AND CONDITIONS
 
 You can optionally add a short header:
 
-Copyright (c) 2025 Cobra Tech LLC
+Copyright (c) 2025 Robert Williams
 
 Licensed under the Apache License, Version 2.0 (the “License”); you may not use this file except in compliance with the License.
